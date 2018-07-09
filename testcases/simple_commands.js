@@ -7,7 +7,7 @@ if ( typeof(tests) != "object" ) {
  * Test: Run command isMaster
  */
 tests.push( { name: "Commands.isMaster",
-              tags: ['command'],
+              tags: ['command', 'regression'],
               ops: [
                   { op: "command", ns : "#B_DB", command : { "isMaster" : 1 } }
               ] } );
